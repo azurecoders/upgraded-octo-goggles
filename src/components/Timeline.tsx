@@ -67,9 +67,9 @@ const Timeline = () => {
                 </div>
               </div>
               <p className="text-neutral-300">
-                "MyPath's AI-powered learning paths helped me master programming
-                concepts at my own pace. The personalized approach made all the
-                difference!"
+                {
+                  '"MyPath\'s AI-powered learning paths helped me master programming concepts at my own pace. The personalized approach made all the difference!"'
+                }
               </p>
               <div className="mt-4 flex text-dark-logo-primary">★★★★★</div>
             </div>
@@ -100,9 +100,9 @@ const Timeline = () => {
                 </div>
               </div>
               <p className="text-neutral-300">
-                "The networking features connected me with amazing mentors and
-                peers. I've already secured an internship through MyPath's
-                platform!"
+                {
+                  "\"The networking features connected me with amazing mentors and peers. I've already secured an internship through MyPath's platform!\""
+                }
               </p>
               <div className="mt-4 flex text-dark-logo-primary">★★★★★</div>
             </div>
@@ -133,9 +133,9 @@ const Timeline = () => {
                 </div>
               </div>
               <p className="text-neutral-300">
-                "The AI Resume Builder helped me create a professional resume
-                that stands out. I've received more interview calls since using
-                MyPath!"
+                {
+                  '"The AI Resume Builder helped me create a professional resume that stands out. I\'ve received more interview calls since using MyPath!"'
+                }
               </p>
               <div className="mt-4 flex text-dark-logo-primary">★★★★★</div>
             </div>

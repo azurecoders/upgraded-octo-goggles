@@ -13,7 +13,7 @@ const FAQPage = () => {
             {/* FAQ Item 1 */}
             <div className="border border-neutral-700 rounded-lg">
               <button className="w-full text-left px-6 py-4 focus:outline-none flex justify-between items-center">
-                <span>What's included in the free plan?</span>
+                <span>{"What's included in the free plan?"}</span>
                 <svg
                   className="w-6 h-6 transform transition-transform duration-300"
                   fill="none"
