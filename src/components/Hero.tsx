@@ -25,10 +25,10 @@ const Hero = () => {
               students to unlock their full potential—all in one place.
             </p>
             <div className="flex flex-wrap gap-4">
-              <button className="px-8 py-4 bg-dark-logo-primary text-white rounded-lg text-lg font-semibold hover:bg-dark-logo-primary/90 transition-colors animate__animated animate__pulse animate__infinite">
+              <button className="w-full md:w-fit px-8 py-4 bg-dark-logo-primary text-white rounded-lg text-lg font-semibold hover:bg-dark-logo-primary/90 transition-colors animate__animated animate__pulse animate__infinite">
                 Get Started for Free
               </button>
-              <button className="px-8 py-4 border border-1 border-[#ccc] text-white rounded-lg text-lg font-semibold transition-colors bg-dark-custom-dark-blue hover:bg-dark-custom-blue">
+              <button className="w-full md:w-fit px-8 py-4 border border-1 border-[#ccc] text-white rounded-lg text-lg font-semibold transition-colors bg-dark-custom-dark-blue hover:bg-dark-custom-blue">
                 Learn More
               </button>
             </div>
@@ -46,11 +46,11 @@ const Hero = () => {
             <div className="bg-dark-custom-dark-blue backdrop-blur-sm p-6 rounded-2xl border border-neutral-700 shadow-2xl">
               <div className="space-y-4">
                 <div className="h-4 w-1/3 bg-dark-custom-blue-stroke rounded animate-pulse" />
-                <div className="grid grid-cols-2 gap-4">
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                   <div className="h-24 bg-dark-custom-blue rounded animate-pulse" />
                   <div className="h-24 bg-dark-custom-blue rounded animate-pulse" />
-                  <div className="h-24 bg-dark-custom-blue rounded animate-pulse" />
-                  <div className="h-24 bg-dark-custom-blue rounded animate-pulse" />
+                  <div className="hidden md:block h-24 bg-dark-custom-blue rounded animate-pulse" />
+                  <div className="hidden md:block h-24 bg-dark-custom-blue rounded animate-pulse" />
                 </div>
                 <div className="h-4 w-1/2 bg-dark-custom-blue-stroke rounded animate-pulse" />
               </div>

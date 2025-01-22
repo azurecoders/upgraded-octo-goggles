@@ -6,10 +6,10 @@ const Timeline = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section Header */}
         <div className="text-center mb-16 animate__animated animate__fadeIn">
-          <h2 className="text-4xl font-bold text-indigo-100 mb-4">
+          <h2 className="text-2xl md:text-4xl font-bold text-indigo-100 mb-4">
             Student Success Stories
           </h2>
-          <p className="text-xl text-dark-secondary-text">
+          <p className="text-lg md:text-xl text-dark-secondary-text">
             Join 10,000+ students transforming their journey with MyPath
           </p>
         </div>
@@ -143,7 +143,7 @@ const Timeline = () => {
         </div>
         {/* CTA Button */}
         <div className="text-center mt-12">
-          <button className="bg-dark-logo-primary text-white px-8 py-3 rounded-lg text-lg font-semibold hover:bg-dark-logo-primary/90 transition duration-300 animate__animated animate__pulse animate__infinite">
+          <button className="bg-dark-logo-primary text-white px-8 py-3 rounded-lg md:text-lg font-semibold hover:bg-dark-logo-primary/90 transition duration-300 animate__animated animate__pulse animate__infinite text-sm">
             Join Our Community Today
           </button>
         </div>

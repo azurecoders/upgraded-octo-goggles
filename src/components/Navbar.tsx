@@ -1,9 +1,13 @@
 "use client";
+import Link from "next/link";
+import { usePathname } from "next/navigation";
 import React, { useState, useEffect } from "react";
 
 const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
   const [colorChange, setColorChange] = useState(false);
+  const location = usePathname();
+  console.log("location", location);
 
   useEffect(() => {
     const changeNavbarColor = () => {
@@ -26,8 +30,12 @@ const Navbar = () => {
   return (
     <nav
       id="navbar"
-      className={`fixed w-full z-50 backdrop-blur-sm ${
-        colorChange ? "bg-dark-custom-dark-blue/60 " : "bg-transparent"
+      className={`fixed w-full z-50 backdrop-blur-sm  ${
+        colorChange
+          ? "bg-dark-custom-blue"
+          : location === "/"
+          ? "bg-transparent"
+          : "bg-dark-custom-blue"
       }`}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -41,42 +49,42 @@ const Navbar = () => {
           </div>
           <div className="hidden md:block">
             <div className="ml-10 flex items-baseline space-x-4">
-              <a
-                href="#hero"
+              <Link
+                href="/"
                 className="text-dark-primary-text hover:text-white px-3 py-2 rounded-md text-sm font-medium"
               >
                 Home
-              </a>
-              <a
-                href="#about"
+              </Link>
+              <Link
+                href="/about"
                 className="text-dark-primary-text hover:text-white px-3 py-2 rounded-md text-sm font-medium"
               >
                 About
-              </a>
-              <a
-                href="#features"
+              </Link>
+              <Link
+                href="/features"
                 className="text-dark-primary-text hover:text-white px-3 py-2 rounded-md text-sm font-medium"
               >
                 Features
-              </a>
-              <a
-                href="#pricing"
+              </Link>
+              <Link
+                href="/pricing"
                 className="text-dark-primary-text hover:text-white px-3 py-2 rounded-md text-sm font-medium"
               >
                 Pricing
-              </a>
-              <a
-                href="#blog"
+              </Link>
+              <Link
+                href="/blog"
                 className="text-dark-primary-text hover:text-white px-3 py-2 rounded-md text-sm font-medium"
               >
                 Blog
-              </a>
-              <a
-                href="#team"
+              </Link>
+              <Link
+                href="/team"
                 className="text-dark-primary-text hover:text-white px-3 py-2 rounded-md text-sm font-medium"
               >
                 Team
-              </a>
+              </Link>
               <button className="bg-dark-logo-primary text-white px-4 py-2 rounded-md text-sm font-medium hover:bg-dark-logo-primary/90 transition-colors animate__animated animate__pulse animate__infinite">
                 Get Started
               </button>
