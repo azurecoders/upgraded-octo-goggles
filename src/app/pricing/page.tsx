@@ -19,7 +19,7 @@ const PricingPage = () => {
         {/* Pricing Cards */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
           {/* Free Plan */}
-          <div className="dark:bg-dark-text-hover rounded-2xl p-6 md:p-8 border dark:border-dark-primary-text hover:dark:border-dark-button-blue transition-all duration-300 animate__animated animate__fadeInUp">
+          <div className="dark:bg-dark-text-hover rounded-2xl p-6 md:p-8 border dark:border-dark-button-blue transition-all duration-300 animate__animated animate__fadeInUp flex flex-col cursor-pointer hover:scale-[1.02]">
             <h3 className="text-2xl font-semibold mb-4 text-indigo-100">
               Free Plan
             </h3>
@@ -32,7 +32,7 @@ const PricingPage = () => {
                 /month
               </span>
             </div>
-            <ul className="space-y-4 mb-8">
+            <ul className="space-y-4 mb-8 h-full">
               <li className="flex items-center">
                 <svg
                   className="w-5 h-5 dark:text-dark-logo-primary mr-3"
@@ -82,13 +82,13 @@ const PricingPage = () => {
                 Basic Networking
               </li>
             </ul>
-            <button className="w-full dark:bg-dark-custom-dark-blue/90 font-semibold py-3 rounded-lg hover:dark:bg-dark-custom-dark-blue/60 hover:text-dark-primary-text transition-all duration-300">
+            <button className="justify-end w-full dark:bg-dark-custom-dark-blue/90 font-semibold py-3 rounded-lg hover:dark:bg-dark-custom-dark-blue/60 hover:text-dark-primary-text transition-all duration-300">
               Get Started Free
             </button>
           </div>
           {/* Premium Plan */}
           <div
-            className="bg-gradient-to-br dark:from-dark-button-blue dark:to-dark-text-hover rounded-2xl p-6 md:p-8 transform md:scale-105 shadow-xl animate__animated animate__fadeInUp"
+            className="bg-gradient-to-br dark:from-dark-button-blue dark:to-dark-text-hover rounded-2xl p-6 md:p-8 transform md:scale-[1.05] hover:scale-[1.07] shadow-xl animate__animated animate__fadeInUp flex flex-col cursor-pointer transition-all duration-300"
             style={{ animationDelay: "0.2s" }}
           >
             <div className="absolute top-4 right-4">
@@ -108,7 +108,7 @@ const PricingPage = () => {
                 /month
               </span>
             </div>
-            <ul className="space-y-4 mb-8">
+            <ul className="space-y-4 mb-8 h-full">
               <li className="flex items-center">
                 <svg
                   className="w-5 h-5 dark:text-dark-logo-primary mr-3"
@@ -174,17 +174,17 @@ const PricingPage = () => {
                 Priority Support
               </li>
             </ul>
-            <button className="w-full dark:bg-dark-button-blue hover:dark:bg-dark-button-blue/60 py-3 rounded-lg transition-all duration-300 font-semibold dark:text-white">
+            <button className=" w-full dark:bg-dark-logo-primary hover:dark:bg-dark-logo-primary/60 py-3 rounded-lg transition-all duration-300 font-semibold dark:text-white justify-end">
               Start Premium Trial
             </button>
           </div>
           {/* Student Plan */}
-          <div className="dark:bg-dark-text-hover rounded-2xl p-6 md:p-8 border dark:border-dark-primary-text hover:dark:border-dark-button-blue transition-all duration-300 animate__animated animate__fadeInUp">
+          <div className="dark:bg-dark-text-hover rounded-2xl p-6 md:p-8 border dark:border-dark-button-blue transition-all duration-300 animate__animated animate__fadeInUp flex flex-col hover:scale-[1.02]">
             <h3 className="text-2xl font-semibold mb-4 text-indigo-100">
               Student Plan
             </h3>
             <p className="dark:text-dark-primary-text mb-6">
-              Special student discount
+              Special Discounts for Students
             </p>
             <div className="text-2xl md:text-4xl font-bold mb-6">
               <span>Rs. 500</span>
@@ -192,7 +192,7 @@ const PricingPage = () => {
                 /month
               </span>
             </div>
-            <ul className="space-y-4 mb-8">
+            <ul className="space-y-4 mb-8 h-full">
               <li className="flex items-center">
                 <svg
                   className="w-5 h-5 dark:text-dark-logo-primary mr-3"
@@ -242,14 +242,14 @@ const PricingPage = () => {
                 Basic Networking
               </li>
             </ul>
-            <button className="w-full dark:bg-dark-custom-dark-blue/90 font-semibold py-3 rounded-lg hover:dark:bg-dark-custom-dark-blue/60 hover:text-dark-primary-text transition-all duration-300">
-              Verify Student Status
+            <button className="justify-end w-full dark:bg-dark-custom-dark-blue/90 font-semibold py-3 rounded-lg hover:dark:bg-dark-custom-dark-blue/60 hover:text-dark-primary-text transition-all duration-300">
+              Verify Student Details
             </button>
           </div>
         </div>
         {/* Compare Plans Button */}
         <div className="text-center mb-20">
-          <button className="dark:bg-dark-logo-primary hover:dark:bg-dark-logo-primary/60 text-white px-8 py-3 rounded-lg transition-all duration-300">
+          <button className="dark:bg-dark-button-blue hover:dark:bg-dark-custom-blue-stroke text-white px-8 py-3 rounded-lg transition-all duration-300">
             Compare All Plans
           </button>
         </div>

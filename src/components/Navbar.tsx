@@ -7,7 +7,6 @@ const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
   const [colorChange, setColorChange] = useState(false);
   const location = usePathname();
-  console.log("location", location);
 
   useEffect(() => {
     const changeNavbarColor = () => {
@@ -85,6 +84,12 @@ const Navbar = () => {
               >
                 Team
               </Link>
+              <Link
+                href="/faq"
+                className="text-dark-primary-text hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+              >
+                FAQ
+              </Link>
               <button className="bg-dark-logo-primary text-white px-4 py-2 rounded-md text-sm font-medium hover:bg-dark-logo-primary/90 transition-colors animate__animated animate__pulse animate__infinite">
                 Get Started
               </button>
@@ -122,42 +127,54 @@ const Navbar = () => {
         } md:hidden`}
       >
         <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
-          <a
-            href="#hero"
+          <Link
+            href="/"
             className="text-dark-primary-text hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+            onClick={() => setToggleMenu(false)}
           >
             Home
-          </a>
-          <a
-            href="#about"
+          </Link>
+          <Link
+            href="/about"
             className="text-dark-primary-text hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+            onClick={() => setToggleMenu(false)}
           >
             About
-          </a>
-          <a
-            href="#features"
+          </Link>
+          <Link
+            href="/features"
             className="text-dark-primary-text hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+            onClick={() => setToggleMenu(false)}
           >
             Features
-          </a>
-          <a
-            href="#pricing"
+          </Link>
+          <Link
+            href="/pricing"
             className="text-dark-primary-text hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+            onClick={() => setToggleMenu(false)}
           >
             Pricing
-          </a>
-          <a
-            href="#blog"
+          </Link>
+          <Link
+            href="/blog"
             className="text-dark-primary-text hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+            onClick={() => setToggleMenu(false)}
           >
             Blog
-          </a>
-          <a
-            href="#team"
+          </Link>
+          <Link
+            href="/team"
             className="text-dark-primary-text hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+            onClick={() => setToggleMenu(false)}
           >
             Team
-          </a>
+          </Link>
+          <Link
+            href="/faq"
+            className="text-dark-primary-text hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+          >
+            FAQ
+          </Link>
           <button className="w-full bg-dark-logo-primary text-white px-4 py-2 rounded-md text-sm font-medium hover:bg-dark-logo-primary/90 transition-colors mt-4">
             Get Started
           </button>
