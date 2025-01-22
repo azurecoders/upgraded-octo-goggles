@@ -46,7 +46,7 @@ const BlogsPage = () => {
                 <input
                   type="email"
                   placeholder="Enter your email address"
-                  className="flex-1 px-3 md:px-6 py-3 rounded-lg border border-neutral-300 focus:outline-none focus:border-blue-500 text-dark-custom-dark-blue"
+                  className="flex-1 px-3 md:px-6 py-3 rounded-lg border border-neutral-300 focus:outline-none focus:border-blue-500 text-dark-primary-text bg-transparent"
                   required={true}
                 />
                 <button

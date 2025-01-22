@@ -16,7 +16,7 @@ const TeamPage = () => {
         {/* Team Grid */}
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
           {/* Team Member 1 */}
-          <div className="dark:bg-dark-text-hover rounded-xl p-4  md:p-6 hover:transform hover:bg-dark-custom-blue transition duration-300 animate__animated animate__fadeInUp cursor-pointer">
+          <div className="dark:bg-dark-text-hover rounded-xl p-4  md:p-6 hover:transform hover:dark:bg-dark-custom-blue transition duration-300 animate__animated animate__fadeInUp cursor-pointer">
             <div className="flex flex-col items-center">
               <div className="w-32 h-32 dark:bg-dark-button-blue/20 rounded-full mb-4 flex items-center justify-center">
                 <svg
@@ -56,7 +56,7 @@ const TeamPage = () => {
                 </a>
                 <a
                   href="#"
-                  className="dark:text-dark-primary-text hover:text-white"
+                  className="dark:text-dark-primary-text hover:text-white hover:dark:text-dark-secondary-text"
                 >
                   <svg
                     className="w-5 h-5"
@@ -70,7 +70,7 @@ const TeamPage = () => {
             </div>
           </div>
           {/* Team Member 2 */}
-          <div className="dark:bg-dark-text-hover rounded-xl p-4  md:p-6 hover:transform hover:bg-dark-custom-blue transition duration-300 animate__animated animate__fadeInUp cursor-pointer">
+          <div className="dark:bg-dark-text-hover rounded-xl p-4  md:p-6 hover:transform hover:dark:bg-dark-custom-blue transition duration-300 animate__animated animate__fadeInUp cursor-pointer">
             <div className="flex flex-col items-center">
               <div className="w-32 h-32 dark:bg-dark-button-blue/20 rounded-full mb-4 flex items-center justify-center">
                 <svg
@@ -110,7 +110,7 @@ const TeamPage = () => {
                 </a>
                 <a
                   href="#"
-                  className="dark:text-dark-primary-text hover:text-white"
+                  className="dark:text-dark-primary-text hover:text-white hover:dark:text-dark-secondary-text"
                 >
                   <svg
                     className="w-5 h-5"
@@ -124,7 +124,7 @@ const TeamPage = () => {
             </div>
           </div>
           {/* Team Member 3 */}
-          <div className="dark:bg-dark-text-hover rounded-xl p-4  md:p-6 hover:transform hover:bg-dark-custom-blue transition duration-300 animate__animated animate__fadeInUp cursor-pointer">
+          <div className="dark:bg-dark-text-hover rounded-xl p-4  md:p-6 hover:transform hover:dark:bg-dark-custom-blue transition duration-300 animate__animated animate__fadeInUp cursor-pointer">
             <div className="flex flex-col items-center">
               <div className="w-32 h-32 dark:bg-dark-button-blue/20 rounded-full mb-4 flex items-center justify-center">
                 <svg
@@ -164,7 +164,7 @@ const TeamPage = () => {
                 </a>
                 <a
                   href="#"
-                  className="dark:text-dark-primary-text hover:text-white"
+                  className="dark:text-dark-primary-text hover:text-white hover:dark:text-dark-secondary-text"
                 >
                   <svg
                     className="w-5 h-5"

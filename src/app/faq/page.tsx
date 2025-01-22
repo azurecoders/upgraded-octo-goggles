@@ -75,12 +75,12 @@ const FAQPage = () => {
                 <div
                   className={`${
                     activeIndex === index ? "block" : "hidden"
-                  } px-6 py-4 dark:text-dark-secondary-text/60 border-t border-neutral-700 text-sm md:text-[14px]`}
+                  } px-6 py-4 dark:text-dark-primary-text/80 border-t border-neutral-700 text-sm md:text-[14px]`}
                 >
                   {faq.answer}
                 </div>
               </div>
-            ))}
+              ))}
           </div>
         </div>
       </div>
