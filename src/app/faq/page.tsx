@@ -40,7 +40,7 @@ const FAQPage = () => {
   return (
     <section
       id="pricing"
-      className="pt-12 pb-1 md:py-20 dark:bg-dark-custom-dark-blue text-white"
+      className="pt-12 pb-1 md:py-20 dark:bg-dark-custom-dark-blue dark:text-dark-primary-text"
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 my-12">
         {/* FAQ Section */}
@@ -75,12 +75,12 @@ const FAQPage = () => {
                 <div
                   className={`${
                     activeIndex === index ? "block" : "hidden"
-                  } px-6 py-4 dark:text-dark-primary-text/80 border-t border-neutral-700 text-sm md:text-[14px]`}
+                  } px-6 py-4 dark:text-dark-primary-text border-t border-neutral-700 text-sm md:text-[14px]`}
                 >
                   {faq.answer}
                 </div>
               </div>
-              ))}
+            ))}
           </div>
         </div>
       </div>

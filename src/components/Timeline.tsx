@@ -60,7 +60,7 @@ const Timeline = () => {
                   </svg>
                 </div>
                 <div className="ml-4">
-                  <h4 className="text-lg font-semibold text-white">
+                  <h4 className="text-lg font-semibold dark:text-dark-primary-text">
                     Sarah Johnson
                   </h4>
                   <p className="text-neutral-400">Computer Science Student</p>
@@ -93,7 +93,7 @@ const Timeline = () => {
                   </svg>
                 </div>
                 <div className="ml-4">
-                  <h4 className="text-lg font-semibold text-white">
+                  <h4 className="text-lg font-semibold dark:text-dark-primary-text">
                     Michael Chen
                   </h4>
                   <p className="text-neutral-400">Business Major</p>
@@ -126,7 +126,7 @@ const Timeline = () => {
                   </svg>
                 </div>
                 <div className="ml-4">
-                  <h4 className="text-lg font-semibold text-white">
+                  <h4 className="text-lg font-semibold dark:text-dark-primary-text">
                     Emily Rodriguez
                   </h4>
                   <p className="text-neutral-400">Engineering Student</p>
@@ -143,7 +143,7 @@ const Timeline = () => {
         </div>
         {/* CTA Button */}
         <div className="text-center mt-12">
-          <button className="bg-dark-logo-primary text-white px-8 py-3 rounded-lg md:text-lg font-semibold hover:bg-dark-logo-primary/90 transition duration-300 animate__animated animate__pulse animate__infinite text-sm">
+          <button className="bg-dark-logo-primary dark:text-dark-primary-text px-8 py-3 rounded-lg md:text-lg font-semibold hover:bg-dark-logo-primary/90 transition duration-300 animate__animated animate__pulse animate__infinite text-sm">
             Join Our Community Today
           </button>
         </div>

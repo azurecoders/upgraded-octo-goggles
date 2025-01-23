@@ -17,7 +17,7 @@ const BlogsPage = () => {
               <div className="hidden md:block absolute inset-0 bg-blue-100 rounded-full animate-ping opacity-25" />
               <div className="relative bg-gradient-to-r from-blue-500 to-purple-500 w-48 h-48 rounded-full flex items-center justify-center">
                 <svg
-                  className="w-24 h-24 text-white"
+                  className="w-24 h-24 dark:text-dark-primary-text"
                   fill="none"
                   stroke="currentColor"
                   viewBox="0 0 24 24"
@@ -51,7 +51,7 @@ const BlogsPage = () => {
                 />
                 <button
                   type="submit"
-                  className="dark:bg-dark-logo-primary text-white px-8 py-3 rounded-lg hover:dark:bg-dark-logo-primary/60 transition-all duration-300 whitespace-nowrap"
+                  className="dark:bg-dark-logo-primary dark:text-dark-primary-text px-8 py-3 rounded-lg hover:dark:bg-dark-logo-primary/60 transition-all duration-300 whitespace-nowrap"
                 >
                   Notify Me
                 </button>

@@ -5,6 +5,7 @@ const TeamPage = () => {
     <section id="team" className="py-20 dark:bg-dark-custom-dark-blue">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 my-12">
         {/* Section Header */}
+
         <div className="text-center mb-16 animate__animated animate__fadeIn">
           <h2 className="text-[30px] md:text-4xl font-bold dark:text-indigo-100 mb-4">
             The Minds Behind MyPath
@@ -20,7 +21,7 @@ const TeamPage = () => {
             <div className="flex flex-col items-center">
               <div className="w-32 h-32 dark:bg-dark-button-blue/20 rounded-full mb-4 flex items-center justify-center">
                 <svg
-                  className="w-16 h-16 dark:text-white"
+                  className="w-16 h-16 dark:text-dark-primary-text"
                   fill="currentColor"
                   viewBox="0 0 20 20"
                 >
@@ -44,7 +45,7 @@ const TeamPage = () => {
               <div className="flex space-x-4">
                 <a
                   href="#"
-                  className="dark:text-dark-primary-text hover:text-white hover:dark:text-dark-secondary-text"
+                  className="dark:text-dark-primary-text hover:dark:text-[#0077B5] transition-all duration-300"
                 >
                   <svg
                     className="w-5 h-5"
@@ -56,7 +57,7 @@ const TeamPage = () => {
                 </a>
                 <a
                   href="#"
-                  className="dark:text-dark-primary-text hover:text-white hover:dark:text-dark-secondary-text"
+                  className="dark:text-dark-primary-text hover:dark:text-dark-secondary-text"
                 >
                   <svg
                     className="w-5 h-5"
@@ -74,7 +75,7 @@ const TeamPage = () => {
             <div className="flex flex-col items-center">
               <div className="w-32 h-32 dark:bg-dark-button-blue/20 rounded-full mb-4 flex items-center justify-center">
                 <svg
-                  className="w-16 h-16 dark:text-white"
+                  className="w-16 h-16 dark:text-dark-primary-text"
                   fill="currentColor"
                   viewBox="0 0 20 20"
                 >
@@ -98,7 +99,7 @@ const TeamPage = () => {
               <div className="flex space-x-4">
                 <a
                   href="#"
-                  className="dark:text-dark-primary-text hover:text-white hover:dark:text-dark-secondary-text"
+                  className="dark:text-dark-primary-text hover:dark:text-[#0077B5] transition-all duration-300"
                 >
                   <svg
                     className="w-5 h-5"
@@ -110,7 +111,7 @@ const TeamPage = () => {
                 </a>
                 <a
                   href="#"
-                  className="dark:text-dark-primary-text hover:text-white hover:dark:text-dark-secondary-text"
+                  className="dark:text-dark-primary-text hover:dark:text-dark-secondary-text"
                 >
                   <svg
                     className="w-5 h-5"
@@ -128,7 +129,7 @@ const TeamPage = () => {
             <div className="flex flex-col items-center">
               <div className="w-32 h-32 dark:bg-dark-button-blue/20 rounded-full mb-4 flex items-center justify-center">
                 <svg
-                  className="w-16 h-16 dark:text-white"
+                  className="w-16 h-16 dark:text-dark-primary-text"
                   fill="currentColor"
                   viewBox="0 0 20 20"
                 >
@@ -152,7 +153,7 @@ const TeamPage = () => {
               <div className="flex space-x-4">
                 <a
                   href="#"
-                  className="dark:text-dark-primary-text hover:text-white hover:dark:text-dark-secondary-text"
+                  className="dark:text-dark-primary-text hover:dark:text-[#0077B5] transition-all duration-300"
                 >
                   <svg
                     className="w-5 h-5"
@@ -164,7 +165,7 @@ const TeamPage = () => {
                 </a>
                 <a
                   href="#"
-                  className="dark:text-dark-primary-text hover:text-white hover:dark:text-dark-secondary-text"
+                  className="dark:text-dark-primary-text hover:dark:text-dark-secondary-text"
                 >
                   <svg
                     className="w-5 h-5"
@@ -180,7 +181,7 @@ const TeamPage = () => {
         </div>
         {/* CTA Section */}
         <div className="text-center animate__animated animate__fadeIn">
-          <button className="dark:bg-dark-logo-primary text-white px-8 py-3 rounded-lg md:text-lg font-semibold hover:dark:bg-dark-logo-primary/60 transition duration-300 text-sm">
+          <button className="dark:bg-dark-logo-primary dark:text-dark-primary-text px-8 py-3 rounded-lg md:text-lg font-semibold hover:dark:bg-dark-logo-primary/60 transition duration-300 text-sm">
             Join Our Mission
           </button>
         </div>

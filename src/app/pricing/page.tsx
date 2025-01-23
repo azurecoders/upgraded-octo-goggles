@@ -4,7 +4,7 @@ const PricingPage = () => {
   return (
     <section
       id="pricing"
-      className="py-20 dark:bg-dark-custom-dark-blue text-white"
+      className="py-20 dark:bg-dark-custom-dark-blue dark:text-dark-primary-text"
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 my-12">
         {/* Section Header */}
@@ -92,7 +92,7 @@ const PricingPage = () => {
             style={{ animationDelay: "0.2s" }}
           >
             <div className="absolute top-4 right-4">
-              <span className="dark:bg-dark-logo-primary text-white text-sm font-semibold px-3 py-1 rounded-full">
+              <span className="dark:bg-dark-logo-primary dark:text-dark-primary-text text-sm font-semibold px-3 py-1 rounded-full">
                 Popular
               </span>
             </div>
@@ -174,7 +174,7 @@ const PricingPage = () => {
                 Priority Support
               </li>
             </ul>
-            <button className=" w-full dark:bg-dark-logo-primary hover:dark:bg-dark-logo-primary/60 py-3 rounded-lg transition-all duration-300 font-semibold dark:text-white justify-end">
+            <button className=" w-full dark:bg-dark-logo-primary hover:dark:bg-dark-logo-primary/60 py-3 rounded-lg transition-all duration-300 font-semibold dark:text-dark-primary-text justify-end">
               Start Premium Trial
             </button>
           </div>
@@ -249,7 +249,7 @@ const PricingPage = () => {
         </div>
         {/* Compare Plans Button */}
         <div className="text-center mb-20">
-          <button className="dark:bg-dark-button-blue hover:dark:bg-dark-custom-blue-stroke text-white px-8 py-3 rounded-lg transition-all duration-300">
+          <button className="dark:bg-dark-button-blue hover:dark:bg-dark-custom-blue-stroke dark:text-dark-primary-text px-8 py-3 rounded-lg transition-all duration-300">
             Compare All Plans
           </button>
         </div>
