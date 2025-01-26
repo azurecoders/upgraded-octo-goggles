@@ -11,8 +11,17 @@ export default {
     extend: {
       colors: {
         light: {
-          bg: "#d9e3f2",
-          text: "#00071f",
+          // bg: "#d9e3f2",
+          // text: "#00071f",
+          // primary: "#1458e1",
+          // secondary: "#000000",
+          // accent: "#bacee8",
+          bg: "#fbfbfe",
+          text: "#050315",
+          primary: "#1458e1",
+          secondary: "#050315",
+          accent: "#bacee8",
+          "accent-dark": "#9DB9DD",
         },
         dark: {
           "logo-primary": "#1D68FF",

@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <footer
       id="footer"
-      className="dark:bg-gray-900 dark:text-dark-primary-text pt-20 pb-10"
+      className="bg-light-accent dark:bg-gray-900 text-light-text dark:text-dark-primary-text pt-20 pb-10"
     >
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
@@ -152,7 +152,7 @@ const Footer = () => {
               />
               <button
                 type="submit"
-                className="w-full dark:bg-blue-600 dark:text-dark-primary-text py-2 px-4 rounded-lg hover:dark:bg-blue-700 transition-colors duration-300"
+                className="w-full bg-light-primary hover:bg-light-primary/90 text-light-bg dark:bg-blue-600 dark:text-dark-primary-text py-2 px-4 rounded-lg hover:dark:bg-blue-700 transition-colors duration-300"
               >
                 Subscribe
               </button>
@@ -160,7 +160,7 @@ const Footer = () => {
           </div>
         </div>
         {/* Bottom Bar */}
-        <div className="border-t dark:border-gray-800 pt-8">
+        <div className="border-t border-light-secondary dark:border-gray-800 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="dark:text-gray-400 text-sm">
               © 2024 MyPath. All rights reserved.
