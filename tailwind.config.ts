@@ -11,11 +11,8 @@ export default {
     extend: {
       colors: {
         light: {
-          "light-white": "#f1f1f1",
-          "golden-white": "#d3ffff",
-          "light-black": "#010101",
-          "text-blue": "rgb(51, 102, 255)",
-          "light-blue": "rgba(51, 102, 255, 0.08)",
+          bg: "#d9e3f2",
+          text: "#00071f",
         },
         dark: {
           "logo-primary": "#1D68FF",

@@ -88,7 +88,7 @@ const Features = () => {
         </div>
         {/* CTA */}
         <div className="text-center animate__animated animate__fadeIn">
-          <button className="bg-dark-logo-primary dark:text-dark-primary-text px-8 py-3 rounded-lg md:text-lg font-semibold hover:bg-dark-logo-primary/90 transition duration-300 text-sm">
+          <button className="dark:bg-dark-logo-primary dark:text-dark-primary-text px-8 py-3 rounded-lg md:text-lg font-semibold hover:bg-dark-logo-primary/90 transition duration-300 text-sm">
             Join Our Community Today
           </button>
         </div>

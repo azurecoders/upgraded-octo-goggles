@@ -4,21 +4,21 @@ const Footer = () => {
   return (
     <footer
       id="footer"
-      className="bg-gray-900 dark:text-dark-primary-text pt-20 pb-10"
+      className="dark:bg-gray-900 dark:text-dark-primary-text pt-20 pb-10"
     >
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
           {/* Company Info */}
           <div>
             <h3 className="text-2xl font-bold mb-6">MyPath</h3>
-            <p className="text-gray-400 mb-6">
+            <p className="dark:dark:text-gray-400 mb-6">
               Empowering students to shape their future through AI-powered
               learning and career development.
             </p>
             <div className="flex space-x-4">
               <a
                 href="#"
-                className="text-gray-400 hover:dark:text-dark-primary-text transition-colors duration-300"
+                className="dark:dark:text-gray-400 hover:dark:text-dark-primary-text transition-colors duration-300"
               >
                 <svg
                   className="w-6 h-6"
@@ -30,7 +30,7 @@ const Footer = () => {
               </a>
               <a
                 href="#"
-                className="text-gray-400 hover:dark:text-dark-primary-text transition-colors duration-300"
+                className="dark:dark:text-gray-400 hover:dark:text-dark-primary-text transition-colors duration-300"
               >
                 <svg
                   className="w-6 h-6"
@@ -42,7 +42,7 @@ const Footer = () => {
               </a>
               <a
                 href="#"
-                className="text-gray-400 hover:dark:text-dark-primary-text transition-colors duration-300"
+                className="dark:text-gray-400 hover:dark:text-dark-primary-text transition-colors duration-300"
               >
                 <svg
                   className="w-6 h-6"
@@ -61,7 +61,7 @@ const Footer = () => {
               <li>
                 <a
                   href="#"
-                  className="text-gray-400 hover:dark:text-dark-primary-text transition-colors duration-300"
+                  className="dark:text-gray-400 hover:dark:text-dark-primary-text transition-colors duration-300"
                 >
                   Home
                 </a>
@@ -69,7 +69,7 @@ const Footer = () => {
               <li>
                 <a
                   href="#"
-                  className="text-gray-400 hover:dark:text-dark-primary-text transition-colors duration-300"
+                  className="dark:text-gray-400 hover:dark:text-dark-primary-text transition-colors duration-300"
                 >
                   About
                 </a>
@@ -77,7 +77,7 @@ const Footer = () => {
               <li>
                 <a
                   href="#"
-                  className="text-gray-400 hover:dark:text-dark-primary-text transition-colors duration-300"
+                  className="dark:text-gray-400 hover:dark:text-dark-primary-text transition-colors duration-300"
                 >
                   Features
                 </a>
@@ -85,7 +85,7 @@ const Footer = () => {
               <li>
                 <a
                   href="#"
-                  className="text-gray-400 hover:dark:text-dark-primary-text transition-colors duration-300"
+                  className="dark:text-gray-400 hover:dark:text-dark-primary-text transition-colors duration-300"
                 >
                   Pricing
                 </a>
@@ -93,7 +93,7 @@ const Footer = () => {
               <li>
                 <a
                   href="#"
-                  className="text-gray-400 hover:dark:text-dark-primary-text transition-colors duration-300"
+                  className="dark:text-gray-400 hover:dark:text-dark-primary-text transition-colors duration-300"
                 >
                   Blog
                 </a>
@@ -107,7 +107,7 @@ const Footer = () => {
               <li>
                 <a
                   href="#"
-                  className="text-gray-400 hover:dark:text-dark-primary-text transition-colors duration-300"
+                  className="dark:text-gray-400 hover:dark:text-dark-primary-text transition-colors duration-300"
                 >
                   Help Center
                 </a>
@@ -115,7 +115,7 @@ const Footer = () => {
               <li>
                 <a
                   href="#"
-                  className="text-gray-400 hover:dark:text-dark-primary-text transition-colors duration-300"
+                  className="dark:text-gray-400 hover:dark:text-dark-primary-text transition-colors duration-300"
                 >
                   Privacy Policy
                 </a>
@@ -123,7 +123,7 @@ const Footer = () => {
               <li>
                 <a
                   href="#"
-                  className="text-gray-400 hover:dark:text-dark-primary-text transition-colors duration-300"
+                  className="dark:text-gray-400 hover:dark:text-dark-primary-text transition-colors duration-300"
                 >
                   Terms of Service
                 </a>
@@ -131,7 +131,7 @@ const Footer = () => {
               <li>
                 <a
                   href="#"
-                  className="text-gray-400 hover:dark:text-dark-primary-text transition-colors duration-300"
+                  className="dark:text-gray-400 hover:dark:text-dark-primary-text transition-colors duration-300"
                 >
                   Contact Us
                 </a>
@@ -141,18 +141,18 @@ const Footer = () => {
           {/* Newsletter */}
           <div>
             <h4 className="text-lg font-semibold mb-6">Stay Updated</h4>
-            <p className="text-gray-400 mb-4">
+            <p className="dark:text-gray-400 mb-4">
               Stay updated with the latest from MyPath!
             </p>
             <form className="space-y-4">
               <input
                 type="email"
                 placeholder="Enter your email"
-                className="w-full px-4 py-2 rounded-lg bg-gray-800 border border-gray-dark dark:text-dark-primary-text placeholder-gray-400 focus:ring-2 focus:ring-blue-600 focus:border-transparent outline-none"
+                className="w-full px-4 py-2 rounded-lg dark:bg-gray-800 border border-gray-dark dark:text-dark-primary-text dark:placeholder-gray-400 focus:ring-2 focus:dark:ring-blue-600 focus:border-transparent outline-none"
               />
               <button
                 type="submit"
-                className="w-full bg-blue-600 dark:text-dark-primary-text py-2 px-4 rounded-lg hover:bg-blue-700 transition-colors duration-300"
+                className="w-full dark:bg-blue-600 dark:text-dark-primary-text py-2 px-4 rounded-lg hover:dark:bg-blue-700 transition-colors duration-300"
               >
                 Subscribe
               </button>
@@ -160,27 +160,27 @@ const Footer = () => {
           </div>
         </div>
         {/* Bottom Bar */}
-        <div className="border-t border-gray-800 pt-8">
+        <div className="border-t dark:border-gray-800 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
-            <p className="text-gray-400 text-sm">
+            <p className="dark:text-gray-400 text-sm">
               © 2024 MyPath. All rights reserved.
             </p>
             <div className="flex space-x-6 mt-4 md:mt-0">
               <a
                 href="#"
-                className="text-gray-400 hover:dark:text-dark-primary-text text-sm"
+                className="dark:text-gray-400 hover:dark:text-dark-primary-text text-sm"
               >
                 Privacy Policy
               </a>
               <a
                 href="#"
-                className="text-gray-400 hover:dark:text-dark-primary-text text-sm"
+                className="dark:text-gray-400 hover:dark:text-dark-primary-text text-sm"
               >
                 Terms of Service
               </a>
               <a
                 href="#"
-                className="text-gray-400 hover:dark:text-dark-primary-text text-sm"
+                className="dark:text-gray-400 hover:dark:text-dark-primary-text text-sm"
               >
                 Cookie Policy
               </a>

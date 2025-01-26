@@ -4,7 +4,7 @@ const Hero = () => {
   return (
     <section
       id="hero"
-      className="min-h-[70vh] bg-gradient-to-br dark:from-dark-button-blue dark:via-dark-text-hover dark:to-dark-button-blue relative overflow-hidden"
+      className="min-h-[70vh] bg-gradient-to-br bg-light-golden-white dark:from-dark-button-blue dark:via-dark-text-hover dark:to-dark-button-blue relative overflow-hidden"
     >
       {/* Abstract background pattern */}
       <div className="absolute inset-0 opacity-10">
@@ -14,13 +14,13 @@ const Hero = () => {
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-32 pb-16">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-8 animate__animated animate__fadeInLeft">
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold dark:text-dark-primary-text leading-tight">
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-light-light-black dark:text-dark-primary-text leading-tight">
               Your All-in-One Platform to{" "}
-              <span className="dark:text-dark-logo-primary">
+              <span className="dark:text-dark-logo-primary text-light-text-blue">
                 Learn, Connect, and Grow
               </span>
             </h1>
-            <p className="text-xl dark:text-gray-300 max-w-2xl">
+            <p className="text-xl dark:text-gray-300 max-w-2xl text-light-light-blue">
               From personalized learning to career development, MyPath empowers
               students to unlock their full potential—all in one place.
             </p>

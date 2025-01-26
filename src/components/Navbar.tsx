@@ -31,9 +31,9 @@ const Navbar = () => {
       id="navbar"
       className={`fixed w-full z-50 backdrop-blur-sm  ${
         colorChange
-          ? "dark:bg-dark-custom-blue"
+          ? "dark:bg-dark-custom-blue bg-light-golden-white"
           : location === "/"
-          ? "bg-transparent"
+          ? "bg-light-golden-white"
           : "dark:bg-dark-custom-blue"
       }`}
     >
@@ -43,7 +43,7 @@ const Navbar = () => {
             <div className="flex-shrink-0">
               <Link
                 href="/"
-                className="text-2xl font-bold dark:text-dark-primary-text"
+                className="text-2xl font-bold dark:text-dark-primary-text text-light-light-black"
               >
                 MyPath
               </Link>
@@ -53,47 +53,47 @@ const Navbar = () => {
             <div className="ml-10 flex items-baseline space-x-4">
               <Link
                 href="/"
-                className="dark:text-dark-primary-text hover:dark:text-dark-primary-text px-3 py-2 rounded-md text-sm font-medium"
+                className="dark:text-dark-primary-text text-light-light-black hover:text-light-light-black/80 hover:dark:text-dark-primary-text px-3 py-2 rounded-md text-sm font-medium"
               >
                 Home
               </Link>
               <Link
                 href="/about"
-                className="dark:text-dark-primary-text hover:dark:text-dark-primary-text px-3 py-2 rounded-md text-sm font-medium"
+                className="dark:text-dark-primary-text text-light-light-black hover:text-light-light-black/80 hover:dark:text-dark-primary-text px-3 py-2 rounded-md text-sm font-medium"
               >
                 About
               </Link>
               <Link
                 href="/features"
-                className="dark:text-dark-primary-text hover:dark:text-dark-primary-text px-3 py-2 rounded-md text-sm font-medium"
+                className="dark:text-dark-primary-text text-light-light-black hover:text-light-light-black/80 hover:dark:text-dark-primary-text px-3 py-2 rounded-md text-sm font-medium"
               >
                 Features
               </Link>
               <Link
                 href="/pricing"
-                className="dark:text-dark-primary-text hover:dark:text-dark-primary-text px-3 py-2 rounded-md text-sm font-medium"
+                className="dark:text-dark-primary-text text-light-light-black hover:text-light-light-black/80 hover:dark:text-dark-primary-text px-3 py-2 rounded-md text-sm font-medium"
               >
                 Pricing
               </Link>
               <Link
                 href="/blog"
-                className="dark:text-dark-primary-text hover:dark:text-dark-primary-text px-3 py-2 rounded-md text-sm font-medium"
+                className="dark:text-dark-primary-text text-light-light-black hover:text-light-light-black/80 hover:dark:text-dark-primary-text px-3 py-2 rounded-md text-sm font-medium"
               >
                 Blog
               </Link>
               <Link
                 href="/team"
-                className="dark:text-dark-primary-text hover:dark:text-dark-primary-text px-3 py-2 rounded-md text-sm font-medium"
+                className="dark:text-dark-primary-text text-light-light-black hover:text-light-light-black/80 hover:dark:text-dark-primary-text px-3 py-2 rounded-md text-sm font-medium"
               >
                 Team
               </Link>
               <Link
                 href="/faq"
-                className="dark:text-dark-primary-text hover:dark:text-dark-primary-text px-3 py-2 rounded-md text-sm font-medium"
+                className="dark:text-dark-primary-text text-light-light-black hover:text-light-light-black/80 hover:dark:text-dark-primary-text px-3 py-2 rounded-md text-sm font-medium"
               >
                 FAQ
               </Link>
-              <button className="dark:bg-dark-logo-primary dark:text-dark-primary-text px-4 py-2 rounded-md text-sm font-medium hover:dark:bg-dark-logo-primary/90 transition-colors animate__animated animate__pulse animate__infinite">
+              <button className="bg-light-text-blue hover:bg-light-text-blue/90 dark:bg-dark-logo-primary dark:text-dark-primary-text px-4 py-2 rounded-md text-sm font-medium hover:dark:bg-dark-logo-primary/90 transition-colors animate__animated animate__pulse animate__infinite">
                 Get Started
               </button>
             </div>
