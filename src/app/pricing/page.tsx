@@ -92,7 +92,7 @@ const PricingPage = () => {
             style={{ animationDelay: "0.2s" }}
           >
             <div className="absolute top-4 right-4">
-              <span className="dark:bg-dark-logo-primary text-light-secondary dark:text-dark-primary-text text-sm font-semibold px-3 py-1 rounded-full">
+              <span className="bg-light-bg dark:bg-dark-logo-primary text-light-secondary dark:text-dark-primary-text text-sm font-semibold px-3 py-1 rounded-full">
                 Popular
               </span>
             </div>

@@ -115,10 +115,10 @@ const Navbar = () => {
               )}
             </div>
           </div>
-          <div className="md:hidden">
+          <div className="md:hidden outline-none border-none">
             <button
               type="button"
-              className="mobile-menu-button inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:dark:text-dark-primary-text hover:bg-light-text focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-neutral-800 focus:dark:ring-dark-primary-text"
+              className="outline-none border-none mobile-menu-button inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:dark:text-dark-primary-text hover:bg-light-text focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-neutral-800 focus:dark:ring-dark-primary-text"
               onClick={() => setToggleMenu(!toggleMenu)}
             >
               <span className="sr-only">Open main menu</span>
@@ -192,6 +192,7 @@ const Navbar = () => {
           <Link
             href="/faq"
             className="dark:text-dark-primary-text hover:dark:text-dark-primary-text text-light-text hover:text-light-text/95 block px-3 py-2 rounded-md text-base font-medium"
+            onClick={() => setToggleMenu(false)}
           >
             FAQ
           </Link>

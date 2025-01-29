@@ -44,7 +44,7 @@ const Hero = () => {
             </div>
           </div>
           {/* Dashboard mockup */}
-          <div className="relative animate__animated animate__fadeInRight border-2 border-light-accent/5">
+          <div className="relative animate__animated animate__fadeInRight border-1 border-light-accent/5">
             <div className="dark:bg-dark-custom-dark-blue backdrop-blur-sm p-6 rounded-2xl border dark:border-neutral-700 shadow-2xl">
               <div className="space-y-4">
                 <div className="h-4 w-1/3 bg-light-accent dark:bg-dark-custom-blue-stroke rounded animate-pulse" />

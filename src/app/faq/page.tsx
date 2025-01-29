@@ -40,12 +40,12 @@ const FAQPage = () => {
   return (
     <section
       id="pricing"
-      className="pt-12 pb-1 md:py-20 dark:bg-dark-custom-dark-blue dark:text-dark-primary-text"
+      className="pt-12 pb-1 md:py-20 bg-light-accent-dark dark:bg-dark-custom-dark-blue dark:text-dark-primary-text"
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 my-12">
         {/* FAQ Section */}
         <div className="max-w-3xl mx-auto">
-          <h3 className="text-xl md:text-2xl font-semibold mb-8 text-center dark:text-indigo-100">
+          <h3 className="text-xl md:text-2xl font-semibold mb-8 text-center text-light-text dark:text-indigo-100">
             Frequently Asked Questions
           </h3>
           <div className="space-y-4" id="faq-container">
@@ -55,9 +55,11 @@ const FAQPage = () => {
                   onClick={() => toggleFAQ(index)}
                   className="w-full text-left px-6 py-4 focus:outline-none flex justify-between items-center text-sm md:text-[14px]"
                 >
-                  <span>{faq.question}</span>
+                  <span className="text-light-text dark:text-dark-primary-text">
+                    {faq.question}
+                  </span>
                   <svg
-                    className={`w-6 h-6 transform transition-transform duration-300 ${
+                    className={`text-light-secondary dark:text-dark-primary-text w-6 h-6 transform transition-transform duration-300 ${
                       activeIndex === index ? "rotate-180" : ""
                     }`}
                     fill="none"
@@ -75,7 +77,7 @@ const FAQPage = () => {
                 <div
                   className={`${
                     activeIndex === index ? "block" : "hidden"
-                  } px-6 py-4 dark:text-dark-primary-text border-t border-neutral-700 text-sm md:text-[14px]`}
+                  } px-6 py-4 text-light-secondary/90 dark:text-dark-primary-text border-t border-neutral-700 text-sm md:text-[14px]`}
                 >
                   {faq.answer}
                 </div>
