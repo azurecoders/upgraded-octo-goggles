@@ -4,7 +4,7 @@ const Hero = () => {
   return (
     <section
       id="hero"
-      className="min-h-[70vh] bg-gradient-to-br bg-light-golden-white bg-light-bg dark:from-dark-button-blue dark:via-dark-text-hover dark:to-dark-button-blue relative overflow-hidden"
+      className="min-h-[70vh] justify-center bg-gradient-to-br bg-light-golden-white bg-light-bg dark:from-dark-button-blue dark:via-dark-text-hover dark:to-dark-button-blue relative overflow-hidden"
     >
       {/* Abstract background pattern */}
       <div className="absolute inset-0 opacity-10">

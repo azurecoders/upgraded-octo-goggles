@@ -19,15 +19,15 @@ const Navbar = () => {
       }
     };
 
-    // Add the scroll event listener
     window.addEventListener("scroll", changeNavbarColor);
 
-    // Cleanup the event listener on component unmount
     return () => {
       window.removeEventListener("scroll", changeNavbarColor);
     };
   }, []);
+
   const { resolvedTheme, setTheme } = useTheme();
+
   return (
     <nav
       id="navbar"
@@ -144,7 +144,7 @@ const Navbar = () => {
       <div
         className={`mobile-menu bg-light-bg/95 dark:bg-dark-custom-blue ${
           toggleMenu ? "block" : "hidden"
-        } md:hidden`}
+        } md:hidden shadow-lg`}
       >
         <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
           <Link
@@ -196,9 +196,28 @@ const Navbar = () => {
           >
             FAQ
           </Link>
-          <button className="w-full bg-light-primary hover:bg-light-primary/90 dark:bg-dark-logo-primary dark:text-dark-primary-text px-4 py-2 rounded-md text-sm font-medium hover:dark:bg-dark-logo-primary/90 transition-colors mt-4">
-            Get Started
-          </button>
+          <div className="flex items-center justify-between px-3 py-2">
+            <button className="flex-1 bg-light-primary hover:bg-light-primary/90 dark:bg-dark-logo-primary dark:text-dark-primary-text px-4 py-2 rounded-md text-sm font-medium hover:dark:bg-dark-logo-primary/90 transition-colors">
+              Get Started
+            </button>
+            <div className="ml-4">
+              {resolvedTheme === "light" ? (
+                <button
+                  className="cursor-pointer text-light-text p-2 rounded-md hover:bg-gray-100 dark:hover:bg-gray-800"
+                  onClick={() => setTheme("dark")}
+                >
+                  <Moon className="cursor-pointer" />
+                </button>
+              ) : (
+                <button
+                  className="cursor-pointer p-2 rounded-md hover:bg-gray-100 dark:hover:bg-gray-800"
+                  onClick={() => setTheme("light")}
+                >
+                  <Sun className="cursor-pointer" />
+                </button>
+              )}
+            </div>
+          </div>
         </div>
       </div>
     </nav>
