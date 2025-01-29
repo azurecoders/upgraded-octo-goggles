@@ -5,7 +5,7 @@ const TeamPage = () => {
   return (
     <section
       id="team"
-      className="py-20 bg-light-accent-dark dark:bg-dark-custom-dark-blue"
+      className="py-20 bg-light-bg dark:bg-dark-custom-dark-blue"
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 my-12">
         {/* Section Header */}

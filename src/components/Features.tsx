@@ -5,7 +5,7 @@ const Features = () => {
   return (
     <section
       id="features"
-      className="py-20 bg-light-accent dark:bg-dark-custom-blue"
+      className="py-20 bg-light-accent dark:bg-dark-custom-blue w-full flex flex-col items-center justify-center"
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <h2 className="text-[30px] md:text-[42px] font-bold text-center my-6 text-light-text dark:text-indigo-100">

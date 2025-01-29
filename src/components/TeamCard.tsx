@@ -2,7 +2,7 @@ import React from "react";
 
 const TeamCard = () => {
   return (
-    <div className="bg-light-accent hover:bg-light-accent/80 hover:shadow-lg hover:shadow-light-primary/5 dark:bg-dark-text-hover rounded-xl p-4  md:p-6 hover:transform hover:dark:bg-dark-custom-blue transition duration-300 animate__animated animate__fadeInUp cursor-pointer">
+    <div className="backdrop-blur-[16px] backdrop-saturate-[180%] bg-[#d1d5db] bg-opacity-30 rounded-[12px] border border-[#d1d5db] dark:border-none dark:backdrop-blur-0 dark:backdrop-saturate-0 border-opacity-30 hover:shadow-lg hover:shadow-light-primary/5 dark:bg-dark-text-hover p-4 md:p-6 hover:transform hover:dark:bg-dark-custom-blue transition duration-300 animate__animated animate__fadeInUp cursor-pointer hover:bg-[#d1d5dbfd] hover:scale-105">
       <div className="flex flex-col items-center">
         <div className="w-32 h-32 shadow-md shadow-light-primary/20 dark:shadow-none text-light-secondary dark:bg-dark-button-blue/20 rounded-full mb-4 flex items-center justify-center">
           <svg
