@@ -98,7 +98,7 @@ const Navbar = () => {
               <button className="hover:bg-light-primary/90 bg-light-primary dark:bg-dark-logo-primary dark:text-dark-primary-text px-4 py-2 rounded-md text-sm font-medium hover:dark:bg-dark-logo-primary/90 transition-colors animate__animated animate__pulse animate__infinite">
                 Get Started
               </button>
-              {resolvedTheme === "light" ? (
+              {/* {resolvedTheme === "light" ? (
                 <button
                   className="cursor-pointer text-light-text"
                   onClick={() => setTheme("dark")}
@@ -112,7 +112,7 @@ const Navbar = () => {
                 >
                   <Sun className="cursor-pointer" />
                 </button>
-              )}
+              )} */}
             </div>
           </div>
           <div className="md:hidden outline-none border-none">
@@ -200,7 +200,7 @@ const Navbar = () => {
             <button className="flex-1 bg-light-primary hover:bg-light-primary/90 dark:bg-dark-logo-primary dark:text-dark-primary-text px-4 py-2 rounded-md text-sm font-medium hover:dark:bg-dark-logo-primary/90 transition-colors">
               Get Started
             </button>
-            <div className="ml-4">
+            {/* <div className="ml-4">
               {resolvedTheme === "light" ? (
                 <button
                   className="cursor-pointer text-light-text p-2 rounded-md hover:bg-gray-100 dark:hover:bg-gray-800"
@@ -216,7 +216,7 @@ const Navbar = () => {
                   <Sun className="cursor-pointer" />
                 </button>
               )}
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
