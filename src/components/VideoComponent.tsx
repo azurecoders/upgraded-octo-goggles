@@ -15,7 +15,7 @@ const VideoComponent = async ({ fileName }: VideoComponentProps) => {
   return (
     <div className="w-full h-full lg:min-h-[300px] rounded-md overflow-hidden shadow-lg">
       <video
-        controls
+        muted
         autoPlay
         aria-label="Video player"
         className="w-full h-full object-cover"
