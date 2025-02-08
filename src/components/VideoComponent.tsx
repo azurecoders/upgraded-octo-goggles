@@ -80,7 +80,7 @@ export default function VideoComponentPage() {
         <ContentSection
           title="Advanced Chat Features"
           description="Discover advanced features and pro tips to enhance your chat experience. This tutorial covers advanced topics like message formatting, keyboard shortcuts, and power user features that will help you communicate more effectively and efficiently."
-          videoFile="/TextChat.mp4"
+          videoFile="/Visualization.mp4"
           reverse
         />
       </div>
