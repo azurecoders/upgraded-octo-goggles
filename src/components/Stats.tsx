@@ -4,7 +4,7 @@ const Stats = () => {
   return (
     <section
       id="stats"
-      className="py-20 bg-light-accent-dark dark:bg-dark-custom-dark-blue"
+      className="py-20 bg-light-accent-dark dark:bg-dark-custom-blue"
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section Header */}

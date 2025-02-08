@@ -79,7 +79,7 @@ const Testimonial = () => {
   return (
     <section
       id="testimonials"
-      className="py-14 bg-light-accent dark:bg-dark-custom-blue"
+      className="py-14 bg-light-accent dark:bg-dark-custom-dark-blue"
     >
       <style>{swiperStyles}</style>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
