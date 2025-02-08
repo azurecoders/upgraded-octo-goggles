@@ -17,6 +17,7 @@ const VideoComponent = async ({ fileName }: VideoComponentProps) => {
       <video
         muted
         autoPlay
+        loop={true}
         aria-label="Video player"
         className="w-full h-full object-cover"
       >
